@@ -22,9 +22,9 @@ bool is_o(cell_value player);
 class cell
 {
 private:
-	const char* cell_value_chars[6] = { "",""," ","X","","O" };
 	cell_value _value = cell_value::BLANK;
 	int _position = -1;
+	const char* cell_value_chars[6] = { "",""," ","X","","O" };
 public:
 	cell() {}
 	//The default value of a cell is blank

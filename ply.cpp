@@ -55,10 +55,13 @@ shared_ptr<board> ply::generate_ply_depth(int depth)
 	{
 		board* b = all_boards.front();
 		all_boards.pop();
+		vector<board>& succ = b->successors();
+		if (b->depth() >= targetDepth-1)
+			continue;
 		for (board& s : b->successors())
 		{
-			if(s.depth() < targetDepth)
-				all_boards.push(&s);
+			//if(s.depth() < targetDepth)
+			all_boards.push(&s);
 		}
 	}
 
