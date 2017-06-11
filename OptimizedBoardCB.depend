@@ -2,10 +2,10 @@
 1480323241 source:e:\dev\artproj2\elizabeth_board\optimizedboard\board.cpp
 	"board.h"
 
-1480323215 e:\dev\artproj2\elizabeth_board\optimizedboard\board.h
+1480330250 e:\dev\artproj2\elizabeth_board\optimizedboard\board.h
 	"stdafx.h"
 
-1480322344 e:\dev\artproj2\elizabeth_board\optimizedboard\stdafx.h
+1480370203 e:\dev\artproj2\elizabeth_board\optimizedboard\stdafx.h
 	<vld.h>
 	<iostream>
 	<vector>
@@ -20,6 +20,7 @@
 	<climits>
 	<functional>
 	<cstdio>
+	<cstring>
 	<cstdlib>
 
 1480322616 source:e:\dev\artproj2\elizabeth_board\optimizedboard\main.cpp

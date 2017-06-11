@@ -32,6 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="board.cpp" />
+		<Unit filename="board.h" />
+		<Unit filename="evaluations.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="ply.cpp" />
+		<Unit filename="ply.h" />
+		<Unit filename="search_algo.cpp" />
+		<Unit filename="stdafx.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

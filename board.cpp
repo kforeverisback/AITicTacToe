@@ -1,11 +1,11 @@
 #include "board.h"
 
-bool is_x(cell_value player){
+bool is_x(cell_value player) {
 	return player == cell_value::X;
 }
 
 //Find if player is o
-bool is_o(cell_value player){
+bool is_o(cell_value player) {
 	return (player == cell_value::O);
 }
 
@@ -17,7 +17,7 @@ board::board(int depth) : _depth(depth), _values(9) {}
 
 board::board(int depth, Player p) : _current_player(p), _depth(depth), _values(9) {}
 
-board::board(int depth,  Player p, vector<cell> values) : _current_player(p), _values(values), _depth(depth) {}
+board::board(int depth, Player p, vector<cell> values) : _current_player(p), _values(values), _depth(depth) {}
 
 vector<cell>& board::get_board() {
 	return _values;
@@ -65,7 +65,7 @@ string board::test2()
 {
 	string ss;
 	for (int i = 0; i < 9; i++) {
-		
+
 		switch (this->get_cell(i).value())
 		{
 		case cell_value::BLANK:
@@ -99,7 +99,7 @@ vector<board>& board::successors()
 		return _successors;
 	}
 
-	Player swapped_player  = SWAP_PLAYER(_current_player);
+	Player swapped_player = SWAP_PLAYER(_current_player);
 	for (int i = 0; i < 9; i++)
 	{
 		board b(_depth + 1, swapped_player, _values);
@@ -174,37 +174,37 @@ bool board::is_terminal(int product) {
 }
 
 bool board::is_game_over() const
+{
+	int cell_count = 9;
+	for (auto c : _values)
 	{
-		int cell_count = 9;
-		for (auto c : _values)
-		{
-			cell_count -= c.value() == cell_value::BLANK;
-		}
-		//indicates final move
-		if (cell_count >= 9)
-		{
-			return true;
-		}
-		else if (_current_player == Player::X)
-		{
-			return  find_product(0, 1, 2) == 27 ||
-				find_product(3, 4, 5) == 27 ||
-				find_product(6, 7, 8) == 27 ||
-				find_product(0, 4, 8) == 27 ||
-				find_product(2, 4, 6) == 27 ||
-				find_product(0, 3, 6) == 27 ||
-				find_product(1, 4, 7) == 27 ||
-				find_product(2, 5, 8) == 27;
-		}
-		else
-		{
-			return  find_product(0, 1, 2) == 125 ||
-				find_product(3, 4, 5) == 125 ||
-				find_product(6, 7, 8) == 125 ||
-				find_product(0, 4, 8) == 125 ||
-				find_product(2, 4, 6) == 125 ||
-				find_product(0, 3, 6) == 125 ||
-				find_product(1, 4, 7) == 125 ||
-				find_product(2, 5, 8) == 125;
-		}
+		cell_count -= c.value() == cell_value::BLANK;
 	}
+	//indicates final move
+	if (cell_count >= 9)
+	{
+		return true;
+	}
+	else if (_current_player == Player::X)
+	{
+		return  find_product(0, 1, 2) == 27 ||
+			find_product(3, 4, 5) == 27 ||
+			find_product(6, 7, 8) == 27 ||
+			find_product(0, 4, 8) == 27 ||
+			find_product(2, 4, 6) == 27 ||
+			find_product(0, 3, 6) == 27 ||
+			find_product(1, 4, 7) == 27 ||
+			find_product(2, 5, 8) == 27;
+	}
+	else
+	{
+		return  find_product(0, 1, 2) == 125 ||
+			find_product(3, 4, 5) == 125 ||
+			find_product(6, 7, 8) == 125 ||
+			find_product(0, 4, 8) == 125 ||
+			find_product(2, 4, 6) == 125 ||
+			find_product(0, 3, 6) == 125 ||
+			find_product(1, 4, 7) == 125 ||
+			find_product(2, 5, 8) == 125;
+	}
+}

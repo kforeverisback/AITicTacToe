@@ -20,6 +20,7 @@
 using namespace std;
 //C Headers
 #include <cstdio>
+#include <cstring>
 #include <cstdlib>
 //For Logging
 //#define DISABLE_LOG

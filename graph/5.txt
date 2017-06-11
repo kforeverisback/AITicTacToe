@@ -1,0 +1,63 @@
+@startuml
+skinparam defaultFontName Consolas
+skinparam defaultFontSize 14
+'skinparam shadowing false
+
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_
+(-22)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:blue>O</color>__|_
+(78)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|_\n__<color:blue>O</color>__|__<color:blue>O</color>__|_
+(-222)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:blue>O</color>__
+(-22)"
+
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n__<color:red>X</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_
+(78)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:blue>O</color>__|_
+(-12)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|_\n__<color:blue>O</color>__|__<color:blue>O</color>__|_
+(-22)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:blue>O</color>__
+(-22)"
+
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|_"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|_
+(78)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|_
+(-112)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:blue>O</color>__|__<color:blue>O</color>__|_
+(-132)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:red>X</color>__\n_|__<color:blue>O</color>__|__<color:blue>O</color>__
+(-22)"
+
+@enduml
+@startuml
+skinparam defaultFontName Consolas
+skinparam defaultFontSize 14
+'skinparam shadowing false
+
+
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|_"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|_
+<color:DarkMagenta>Sel:(__-2__)</color>"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|_
+(98)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:blue>O</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|_
+(88)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n__<color:red>X</color>__|__<color:blue>O</color>__|__<color:blue>O</color>__
+(98)"
+
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:red>X</color>__"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:red>X</color>__"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:red>X</color>__
+(-2)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:red>X</color>__"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:red>X</color>__
+(-102)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:red>X</color>__"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:blue>O</color>__|__<color:red>X</color>__
+(-2)"
+"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n_|__<color:blue>O</color>__|__<color:red>X</color>__"-->"__<color:blue>O</color>__|__<color:red>X</color>__|_\n_|__<color:red>X</color>__|_\n__<color:blue>O</color>__|__<color:blue>O</color>__|__<color:red>X</color>__
+(-102)"
+
+@enduml

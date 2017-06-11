@@ -1,0 +1,14 @@
+@startuml
+skinparam defaultFontName Consolas
+skinparam defaultFontSize 14
+'skinparam shadowing false
+
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|_"
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n__<color:blue>O</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|__<color:red>X</color>__
+<color:DarkMagenta>Sel:(__5__)</color>"
+
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|_"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|__<color:blue>O</color>__"
+"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n_|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|__<color:blue>O</color>__"-->"__<color:blue>O</color>__|__<color:red>X</color>__|__<color:blue>O</color>__\n__<color:red>X</color>__|__<color:red>X</color>__|__<color:red>X</color>__\n__<color:red>X</color>__|__<color:blue>O</color>__|__<color:blue>O</color>__
+(1005)"
+
+@enduml
