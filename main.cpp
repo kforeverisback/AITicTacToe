@@ -195,6 +195,7 @@ void comp_vs_comp_game() {
 
 
 	cout << "X Node Count: " << game.get_node_count_x() << endl << "O Node Count: " << game.get_node_count_o() << endl;
+	cout << "Copy 'start_plant_uml.bat' and 'plantuml.8048.jar' file to 'graph' directory where the graph data is created. \r\n Then Run 'start_plant_uml.bat.'" << endl;
 	cout << "Another game? (Y/N)";
 	cin >> again;
 	if (toupper(again) == 'Y') {
